@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.SriMelrizah.tebakgambar"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BungaActivity"
+            android:label="@string/title_activity_bunga" >
+        </activity>
+        <activity
+            android:name=".DiagramActivity"
+            android:label="@string/title_activity_diagram" >
+        </activity>
+        <activity
+            android:name=".FinalActivity"
+            android:label="@string/title_activity_final" >
+        </activity>
+        <activity
+            android:name=".AkhirActivity"
+            android:label="@string/title_activity_akhir" >
+        </activity>
+        <activity
+            android:name=".DaunActivity"
+            android:label="@string/title_activity_daun" >
+        </activity>
+        <activity
+            android:name=".KembangActivity"
+            android:label="@string/title_activity_kembang" >
+        </activity>
+        <activity
+            android:name=".GulaActivity"
+            android:label="@string/title_activity_gula" >
+        </activity>
+        <activity
+            android:name=".MantuActivity"
+            android:label="@string/title_activity_mantu" >
+        </activity>
+        <activity
+            android:name=".NaikActivity"
+            android:label="@string/title_activity_naik" >
+        </activity>
+        <activity
+            android:name=".PenaActivity"
+            android:label="@string/title_activity_pena" >
+        </activity>
+        <activity
+            android:name=".TurunActivity"
+            android:label="@string/title_activity_turun" >
+        </activity>
+        <activity
+            android:name=".BatuActivity"
+            android:label="@string/title_activity_batu" >
+        </activity>
+        <activity
+            android:name=".GigiActivity"
+            android:label="@string/title_activity_gigi" >
+        </activity>
+        <activity
+            android:name=".KumisActivity"
+            android:label="@string/title_activity_kumis" >
+        </activity>
+        <activity
+            android:name=".RacunActivity"
+            android:label="@string/title_activity_racun" >
+        </activity>
+        <activity
+            android:name=".KuncirActivity"
+            android:label="@string/title_activity_kuncir" >
+        </activity>
+    </application>
+
+</manifest>
